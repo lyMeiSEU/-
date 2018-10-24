@@ -1,5 +1,5 @@
 # 宕机日志
-![宕机图片](lhttps://github.com/lyMeiSEU/Down-log/blob/master/Dangji.jpg)
+![宕机](https://github.com/lyMeiSEU/Down-log/blob/master/Dangji.jpg)
 ## 第一次宕机：
 ### 原因：随手删除了动态链接库文件.dll
 ### 解决方法：当时比较菜，直接重装了系统
