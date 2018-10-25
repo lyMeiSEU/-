@@ -11,3 +11,7 @@
 ### 忍不了了，命令提示符输入bcdedit.exe /set nointegritychecks on
 #### 永久禁用数字签名(Windows设计数字签名的目的是保障系统的安全性，禁用可以会对电脑安全性有一些影响，最好的解决方法是用官网驱动）
 ### 想要回复驱动签名检测：开启数字签名的话bcdedit.exe /set nointegritychecks off
+## 第四次宕机(又宕机了)
+### 这次是手残关机时候选成重启，不想等强按电源(我是真的刚)
+### 解决方法：命令提示符输入bcdedit.exe /set nointegritychecks on
+### 收获：下次别手快，认真用电脑以防自坑
