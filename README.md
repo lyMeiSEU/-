@@ -1,47 +1,17 @@
-# 本学期主要任务
-- 计算机系统组成 4credit
-- 数据结构与算法 4credit
-- 英语六级
-- 大学物理 3credit
-- 马原 3credit
-- UML,软工导论 2+2credit
-- python,机器学习
-
-<table>
-<tr>
-<th width=20%>科目</th>
-<th width=30%>时间</th>
-</tr>
-<tr>
-<td>计算机系统组成</td>
-<td>周一，三晚复习当天所学内容并完成作业</td>
-</tr>
-<tr>
-<td>数据结构</td>
-<td>周六上午复习并写完代码</td>
-</tr>
-<tr>
-<td>英语六级</td>
-<td>周五晚上做一套卷子</td>
-</tr>
-<tr>
-<td>大学物理</td>
-<td>周六下午复习并完成作业</td>
-</tr>
-<tr>
-<td>马原</td>
-<td>考前熟悉书上内容（开卷）</td>
-</tr>
-<tr>
-<td>UML,软工导论</td>
-<td>上课集中跟着，考前看书背概念</td>
-</tr>
-<tr>
-<td>python</td>
-<td>周日在写完作业前提下自行学习</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</table>
+# 宕机日志
+![宕机](https://github.com/lyMeiSEU/Down-log/blob/master/Dangji.jpg)
+## 第一次宕机：不记得时间了
+### 原因：随手删除了动态链接库文件.dll
+### 解决方法：当时比较菜，直接重装了系统
+## 第二次宕机：2018/9/？
+### 原因：无效的驱动签名
+### 解决方法：启动设置，禁用
+## 第三次宕机：2018/10/25
+### 原因一样
+### 忍不了了，命令提示符输入bcdedit.exe /set nointegritychecks on
+#### 永久禁用数字签名(Windows设计数字签名的目的是保障系统的安全性，禁用可以会对电脑安全性有一些影响，最好的解决方法是用官网驱动）
+### 想要回复驱动签名检测：开启数字签名的话bcdedit.exe /set nointegritychecks off
+## 第四次宕机：(又宕机了)2018/10/25
+### 这次是手残关机时候选成重启，不想等强按电源(我是真的刚)
+### 解决方法：命令提示符输入bcdedit.exe /set nointegritychecks on
+### 收获：下次别手快，认真用电脑以防自坑
